@@ -25,7 +25,7 @@ bool API::wallFront() {
     return response == "true";
 }
 
-bool API::wallRight() {
+bool API::wallRight() {santoehusantoheu
     std::cout << "wallRight" << std::endl;
     std::string response;
     std::cin >> response;
