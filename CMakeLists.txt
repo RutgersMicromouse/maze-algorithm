@@ -6,12 +6,12 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # Include header directory
-include_directories(${PROJECT_SOURCE_DIR}/include)
+include_directories(${PROJECT_SOURCE_DIR})
 
 # Add the source files
 set(SOURCES
-    src/main.cpp
-    src/api.cpp
+    main.cpp
+    api.cpp
 )
 
 # Create the executable

@@ -1,4 +1,4 @@
-#include "../include/api.h"
+#include "api.h"
 int main(int argc, char** argv) {
     while (1) {
         if (!API::wallLeft()) {
